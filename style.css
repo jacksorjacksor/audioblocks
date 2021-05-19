@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: green;
+  background-color: lightcoral;
   color: #fff;
   font-family: 'Press Start 2P', sans-serif;
   height: 100vh;
@@ -68,7 +68,7 @@ h2 {
   margin: 10px;
 }
 
-.choose-bird-btn {
+.btn-audio {
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
@@ -78,19 +78,17 @@ h2 {
   height: 150px;
 }
 
-.choose-bird-btn:hover {
+.btn-audio:hover {
   background-color: #fff;
   color: #516dff;
 }
 
-.choose-bird-btn:active {
+.btn-audio:active {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.choose-bird-btn img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
+.active {
+  border: 2px solid black;
 }
 
 audio {
