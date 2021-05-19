@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:;base64,=" />
+    <title>Twit Twho?</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Twit Twho?</h1>
+      <h2>by Richard Jackson</h2>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h2>Which bird sings this song?</h2>
+      <audio src="" controls id="bird-song-player"></audio>
+      <ul class="birds-list">
+        <li>
+          <button class="choose-bird-btn">
+            <p class="possible-bird-name"></p>
+            <img class="bird-image" src="" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-bird-btn">
+            <p class="possible-bird-name"></p>
+            <img class="bird-image" src="" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-bird-btn">
+            <p class="possible-bird-name"></p>
+            <img class="bird-image" src="" alt="" />
+          </button>
+        </li>
+      </ul>
+      <button class="btn" id="restart-btn">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
